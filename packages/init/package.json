@@ -1,0 +1,24 @@
+{
+  "name": "@easyotp/init",
+  "version": "0.0.0",
+  "description": "init command",
+  "author": "lc <tron.liu@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/init.test.js"
+  },
+  "dependencies": {
+    "@easyotp/command": "^0.0.0",
+    "@easyotp/utils": "^0.0.0"
+  },
+  "type": "module"
+}
